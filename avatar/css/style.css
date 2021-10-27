@@ -1,0 +1,40 @@
+.titel {
+    text-align: center;
+    margin: 5% 0;
+}
+
+#begin {
+    padding: 2% 10% 10% 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#begin section {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+}
+
+#begin article, #begin figure {
+    width: 100%;
+}
+
+#begin article {
+    background-color: #121315;
+    padding: 3%;
+}
+
+#begin figure {
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+
+figure img {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+
+figure:hover img {
+    transform: scale(1.2);
+}

@@ -1,0 +1,51 @@
+@font-face {
+    font-family: RobotoLight;
+    src: url("../fonts/Roboto-ThinItalic.ttf");
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: RobotoMedium;
+    src: url("../fonts/Roboto-Medium.ttf");
+}
+
+@font-face {
+    font-family: RobotoBold;
+    src: url("../fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+    font-family: RobotoBlack;
+    src: url("../fonts/Roboto-Black.ttf");
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #25262A;
+    color: white;
+}
+
+h1 {
+    font-family: RobotoBold;
+    font-size: 2em;
+}
+
+p, li {
+    font-family: Roboto;
+}
+
+img {
+    width: 100%;
+}
+
