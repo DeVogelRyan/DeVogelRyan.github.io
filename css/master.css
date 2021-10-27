@@ -49,3 +49,16 @@ img {
     width: 100%;
 }
 
+@media (max-width:1000px)  { 
+    #begin {
+       flex-direction: column;
+    }
+
+    #begin .project {
+        width: 100%;
+    }
+
+    #begin .project:first-child{
+        margin-bottom: 8%;
+    }
+}
