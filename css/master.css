@@ -17,8 +17,15 @@ h1 {
     font-size: 3.2em;
 }
 
-p {
+#home p {
     font-size: 2em;
+}
+
+#projects h2 {
+    font-size: 1.3em;
+}
+#projects p {
+    font-size: 1em;
 }
 
 img {

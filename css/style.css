@@ -70,13 +70,15 @@ main {
 #projects {
     margin-top: 20%;
     display: flex;
-    background-color: #1b1c22;
+    background-color: #1f2024;
     padding: 2%;
 }
 
+
 #projects figure {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-left: 30%;
 }
 
 #projects figure img{

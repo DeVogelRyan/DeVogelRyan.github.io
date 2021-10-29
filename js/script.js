@@ -1,7 +1,7 @@
 window.onload = () => {
 
     var i = 0;
-    var txt = "Hello!";
+    var txt = "Hi there!";
     var speed = 200;
 
     function typeWriter(element, text) {
