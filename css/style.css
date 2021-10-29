@@ -24,7 +24,7 @@ main {
     padding-right: 10%;
 }
 
-#home article > h1, #home article p  {
+#home article h1, #home article p  {
     width: 80%;
     text-align: left;
     padding: 1%;
