@@ -81,6 +81,7 @@ main {
     display: flex;
     flex-direction: column;
     background-color: #1f2024;
+    padding-bottom: 5%;
 }
 
 #projects>h1 {
@@ -98,7 +99,6 @@ main {
     padding: 2%;
     margin-top: 2%;
 }
-
 
 .project-collumn article h3 {
     font-size: 1.2em;
@@ -127,6 +127,27 @@ main {
 
 #projects .project-item {
     width: 48%;
+}
+
+#contact {
+    padding: 5%;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#contact form > * {
+    width: 60%;
+    margin-top: 2%;
+}
+
+
+#container {
+    padding: 5%;
 }
 
 .container {

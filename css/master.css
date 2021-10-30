@@ -101,8 +101,6 @@ img {
     #home {
         flex-direction: column;
     }
-
-
     #home .main-article{
         width: 100%;
         padding-right: 0;
@@ -145,6 +143,15 @@ img {
     #projects .project-collumn .project-item {
         width: 100%;
         margin-bottom: 15%;
+    }
+
+    .container .overlay {
+        opacity: 1;
+    }
+
+    .container .image {
+        filter: blur(3px);
+        -webkit-filter: blur(3px);
     }
 
 
