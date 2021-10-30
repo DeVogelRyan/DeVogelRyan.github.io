@@ -78,7 +78,7 @@ body::-webkit-scrollbar-track {
   display: none;
 }
 
-.hover-color{
+.hover-color {
   transition: var(--transition-speed);
 }
 

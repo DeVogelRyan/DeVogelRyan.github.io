@@ -1,5 +1,31 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@font-face {
+    font-family: RobotoLight;
+    src: url("../fonts/Roboto-ThinItalic.ttf");
+}
 
+@font-face {
+    font-family: Roboto;
+    src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+    font-family: RobotoMedium;
+    src: url("../fonts/Roboto-Medium.ttf");
+}
+
+@font-face {
+    font-family: RobotoBold;
+    src: url("../fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+    font-family: RobotoBlack;
+    src: url("../fonts/Roboto-Black.ttf");
+}
+
+*{
+    box-sizing: border-box;
+}
 
 html {
     scroll-behavior: smooth;
@@ -9,12 +35,19 @@ body {
     margin: 0;
     padding: 0;
     background-color: #25262A;
-    font-family: 'Roboto', sans-serif;
     color: white;
 }
 
 h1 {
     font-size: 3.2em;
+}
+
+h1, h2, h3 {
+    font-family: RobotoBold;
+}
+
+p, span, button, a {
+    font-family: Roboto;
 }
 
 #home p {
@@ -30,4 +63,85 @@ h1 {
 
 img {
     width: 100%;
+}
+
+.animate1, .animate2, .animate3, .animate4 {
+    opacity: 0;
+    transform: translateY(3rem);
+    animation: fadeInUp 2s ease forwards;
+    animation-delay: 2s;
+}
+
+.animate1 {
+    animation-delay: 1s;
+}
+
+.animate2 {
+    animation-delay: 1.3s;
+}
+
+.animate3 {
+    animation-delay: 1.6s;
+}
+
+.animate4 {
+    animation-delay: 2s;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    #home {
+        flex-direction: column;
+    }
+
+
+    #home .main-article{
+        width: 100%;
+        padding-right: 0;
+        align-items: center;
+        margin-bottom: 5%;
+    }
+
+    #home .main-article div button {
+        width: 30%;
+        font-size: 1em;
+        padding: 2%;
+    }
+
+    #home article h1 {
+        font-size: 2em;
+    }
+
+    #home article h3 {
+        font-size: 1.8em;
+    }
+
+    #home figure img{
+        width: 100%;
+    }
+
+    .project-collumn {
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+
+    #projects > h1 {
+        font-size: 2.4em;
+    }
+
+    #projects .project-collumn .project-item {
+        width: 100%;
+        margin-bottom: 15%;
+    }
+
+
 }
