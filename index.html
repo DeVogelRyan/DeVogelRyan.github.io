@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="css/nav.css" />
   <link rel="stylesheet" href="css/slider.css">
   <script src="https://kit.fontawesome.com/d35e422033.js" crossorigin="anonymous"></script>
-
+  <title>Portofolio Ryan</title>
 </head>
 
 <body>
@@ -66,7 +66,7 @@
     </ul>
   </nav>
 
-  <main>
+  <div class="main">
     <section id="home">
       <article class="main-article">
         <h1 id="typewriter-placeholder"></h1>
@@ -75,7 +75,7 @@
         <p class="white animate3">I am an IT student. I love programming and networking. I hope I become a network
           engineer one days.</p>
         <div>
-          <button class="animate4">Contact me</button>
+          <button class="animate4" onclick="window.location.href='http://127.0.0.1:5500/index.html#contact'">Contact me</button>
         </div>
       </article>
       <figure class="home-figure">
@@ -89,12 +89,12 @@
         <div class="project-item">
           <div class="container">
             <figure><img src="img/project1.PNG" alt="3DCubeManipulation" class="image"></figure>
-            <a href="#" class="overlay">View in action</a>
+            <a href="#" class="overlay">See in action</a>
           </div>
           <article>
             <section>
               <h3>3D Cube Manipulation</h3>
-              <a href="https://github.com/DeVogelRyan/3D-cube-manipulation"><i class="fab fa-github "></i></a>
+              <a href="https://github.com/DeVogelRyan/3D-cube-manipulation" target="_blank"><i class="fab fa-github "></i></a>
             </section>
             <p>Lorem ipsum</p>
           </article>
@@ -103,28 +103,61 @@
         <div class="project-item">
           <div class="container">
             <figure><img src="img/project2.PNG" alt="3DCubeManipulation" class="image"></figure>
-            <a href="#" class="overlay">View in action</a>
+            <a href="#" class="overlay">See in action</a>
           </div>
           <article>
             <section>
-              <h3>3D Cube Manipulation</h3>
-              <a href=""><i class="fab fa-github"></i></a>
+              <h3>Avatar Generator</h3>
+              <a href="https://github.com/DeVogelRyan/Avatars" target="_blank"><i class="fab fa-github"></i></a>
             </section>
             <p>Lorem ipsum</p>
           </article>
         </div>
-    </section>
+      </div>
+      <div class="project-collumn">
+        <div class="project-item">
+          <div class="container">
+            <figure><img src="img/project1.PNG" alt="3DCubeManipulation" class="image"></figure>
+            <a href="#" class="overlay">See in action</a>
+          </div>
+          <article>
+            <section>
+              <h3>3D Cube Manipulation</h3>
+              <a href="https://github.com/DeVogelRyan/3D-cube-manipulation" target="_blank"><i class="fab fa-github "></i></a>
+            </section>
+            <p>Lorem ipsum</p>
+          </article>
+        </div>
 
-    <section id="contact">
-      <form action="https://formsubmit.co/devogelryan2@gmail.com" method="POST">
-        <input type="text" name="name" placeholder="Name" required>
-        <input type="email" name="email" placeholder="email" required>
-        <input type="text" name="message" placeholder="message" required>
-        <button type="submit">Send</button>
-      </form>
-    </section>
+        <div class="project-item">
+          <div class="container">
+            <figure><img src="img/project3.png" alt="3DCubeManipulation" class="image"></figure>
+            <a href="#" class="overlay">See in action</a>
+          </div>
+          <article>
+            <section>
+              <h3>Shoe Webshop</h3>
+              <a href="https://github.com/DeVogelRyan/Webshop-Shoe-s" target="_blank"><i class="fab fa-github"></i></a>
+            </section>
+            <p>Lorem ipsum</p>
+          </article>
+        </div>
 
-  </main>
+    </section>
+  </div>
+
+  <section id="contact">
+    <form action="https://formsubmit.co/devogelryan2@gmail.com" method="POST">
+      <input type="text" name="name" placeholder="Name" required>
+      <input type="email" name="email" placeholder="email" required>
+      <input type="text" name="message" placeholder="message" required>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+
+
+  </div>
 
   <script src="js/script.js"></script>
 </body>

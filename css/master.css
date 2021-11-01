@@ -145,7 +145,7 @@ img {
         margin-bottom: 15%;
     }
 
-    .container .overlay {
+    .container:hover .overlay {
         opacity: 1;
     }
 
