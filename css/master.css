@@ -31,6 +31,10 @@ html {
     scroll-behavior: smooth;
 }
 
+a {
+    cursor: pointer;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -97,6 +101,10 @@ img {
 
 
 @media only screen and (max-width: 800px) {
+
+    #main {
+        margin: 0;
+    }
 
     #home {
         flex-direction: column;

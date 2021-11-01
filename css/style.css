@@ -133,6 +133,72 @@
 
 #contact {
     padding: 5%;
+    margin-bottom: 5%;
+}
+
+.snake img {
+    height: 70%;
+}
+
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    padding-top: 100px;
+    /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0);
+    /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.4);
+    /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    color: black;
+    margin: auto;
+    padding: 5%;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.modal-content p {
+    margin-bottom: 5%;
+}
+
+.modal-content a {
+    border-radius: 10px;
+    background-color: #6FCF97;
+    color: white;
+    padding: 1.5%;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
 }
 
 #contact form {
@@ -159,7 +225,6 @@
 .image {
     display: block;
     width: 100%;
-    height: 80%;
     transition: 1s ease;
 }
 
