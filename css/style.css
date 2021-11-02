@@ -258,3 +258,28 @@
     filter: blur(3px);
     -webkit-filter: blur(3px);
 }
+
+#contact h1 {
+    margin-bottom: 6%;
+}
+
+#contact div {
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#contact button {
+    background-color: #1f2025;
+    color: rgba(255, 255, 255, 0.719);
+    border: 0px solid;
+    padding: 2%;
+    border-radius: 2px;
+    font-family: Roboto;
+    width: 40%;
+    cursor: pointer;
+}
+
+#contact button:hover {
+    color: white;
+}

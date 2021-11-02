@@ -69,6 +69,16 @@ img {
     width: 100%;
 }
 
+input, textarea {
+    background-color: #1f2025;
+    color: white;
+    border: 0px solid;
+    padding: 2%;
+    border-radius: 2px;
+    font-family: Roboto;
+}
+
+
 .animate1, .animate2, .animate3, .animate4 {
     opacity: 0;
     transform: translateY(3rem);
