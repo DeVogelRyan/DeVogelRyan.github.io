@@ -172,6 +172,10 @@ input, textarea {
         -webkit-filter: blur(3px);
     }
 
+    #contact button{
+        margin-bottom: 10%;
+    }
+
 
 
 }
