@@ -378,7 +378,7 @@ body .animate4 {
     filter: blur(3px);
     -webkit-filter: blur(3px);
   }
-  #main .container:hover .overlay {
+  #main .container .overlay {
     opacity: 1;
   }
   #main #contact button {
