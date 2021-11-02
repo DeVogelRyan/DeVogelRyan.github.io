@@ -162,7 +162,7 @@
       <form action="https://formsubmit.co/devogelryan2@gmail.com" method="POST">
         <input type="text" name="name" placeholder="Name" required>
         <input type="email" name="email" placeholder="email" required>
-        <textarea name="message" placeholder="xd" rows="8" required>
+        <textarea id="message" name="message" placeholder="message" rows="8" required>
         </textarea>
         <div>
           <button type="submit">Send</button>
@@ -200,6 +200,8 @@
         modal.style.display = "none";
       }
     }
+
+    document.querySelector("#message").setSelectionRange(0,0); 
   </script>
   <script src="js/script.js"></script>
 </body>
