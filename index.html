@@ -74,9 +74,8 @@
         <h3 class="animate2">De Vogel Ryan</h3>
         <p class="white animate3">I am an IT student. I love programming and networking. I hope I become a network
           engineer one days.</p>
-        <div>
-          <button class="animate4" onclick="window.location.href='https://devogelryan.github.io/#contact'">Contact
-            me</button>
+        <div class="animate4">
+          <a href="#contact">Contact me</a>
         </div>
       </article>
       <figure class="home-figure">
@@ -160,10 +159,9 @@
     <section id="contact">
       <h1>Contact</h1>
       <form action="https://formsubmit.co/devogelryan2@gmail.com" method="POST">
-        <input type="text" name="name" placeholder="Name" required>
+        <input type="text" name="name" placeholder="Name">
         <input type="email" name="email" placeholder="email" required>
-        <textarea id="message" name="message" placeholder="message" rows="8" required>
-        </textarea>
+        <textarea id="message" name="message" placeholder="message" rows="8" required></textarea>
         <div>
           <button type="submit">Send</button>
         </div>
@@ -201,7 +199,7 @@
       }
     }
 
-    document.querySelector("#message").setSelectionRange(0,0); 
+    document.querySelector("#message").setSelectionRange(0, 0);
   </script>
   <script src="js/script.js"></script>
 </body>
