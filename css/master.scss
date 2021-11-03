@@ -342,6 +342,10 @@ body {
                 .project-item {
                     width: 100%;
                     margin-bottom: 15%;
+
+                    #myBtn {
+                        cursor: pointer;
+                    }
                 }
             }
 
