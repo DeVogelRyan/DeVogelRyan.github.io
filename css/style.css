@@ -1,11 +1,9 @@
 .main #home img {
   width: 80%;
 }
-
 .main #home h3 {
   font-size: 2em;
 }
-
 .main #home h1,
 .main #home h3,
 .main #home article p {
@@ -15,7 +13,6 @@
   line-height: 1;
   color: #6FCF97;
 }
-
 .main #home a {
   cursor: pointer;
   border-radius: 10px;
@@ -24,121 +21,79 @@
   padding: 3%;
   font-size: 1em;
 }
-
 .main #home p {
   font-size: 2em;
 }
-
 .main #home article {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   color: #6FCF97;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  justify-content: center;
+  align-items: flex-end;
   text-align: left;
   flex-direction: column;
   width: 50%;
   padding-right: 10%;
 }
-
 .main #home article div {
   margin-top: 5%;
   width: 80%;
 }
-
 .main #home article > .white {
   font-size: 1em;
-  color: #d1cfcf;
+  color: rgb(209, 207, 207);
 }
-
 .main #home figure {
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: flex-start;
+  align-items: center;
   width: 50%;
 }
-
-.main #projects .project-item {
+.main #projects .project-item, .main #articles .project-item {
   width: 48%;
 }
-
-.main #projects > h1 {
+.main #projects > h1, .main #articles > h1 {
   margin-bottom: 5%;
 }
-
-.main #projects .project-collumn .snake img {
+.main #projects .project-collumn .snake img, .main #articles .project-collumn .snake img {
   height: 70%;
 }
-
-.main #projects .project-collumn article {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.main #projects .project-collumn article, .main #articles .project-collumn article {
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   padding: 2%;
   margin-top: 2%;
 }
-
-.main #projects .project-collumn article h3 {
+.main #projects .project-collumn article h3, .main #articles .project-collumn article h3 {
   font-size: 1.2em;
   font-weight: normal;
 }
-
-.main #projects .project-collumn article > p {
+.main #projects .project-collumn article > p, .main #articles .project-collumn article > p {
   font-size: 1em;
   font-family: Roboto;
-  color: #dbd6d6;
+  color: rgb(219, 214, 214);
 }
-
-.main #projects .project-collumn article section {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.main #projects .project-collumn article section, .main #articles .project-collumn article section {
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
-
-.main #projects .project-collumn article section a {
+.main #projects .project-collumn article section a, .main #articles .project-collumn article section a {
   color: white;
   font-size: 0.8em;
   line-height: 1;
 }
-
-.main #projects .project-collumn article section a:hover {
+.main #projects .project-collumn article section a:hover, .main #articles .project-collumn article section a:hover {
   color: #6FCF97;
 }
-
 .main #contact h1 {
   margin-bottom: 6%;
 }
-
 .main #contact div {
   width: 60%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
+  justify-content: flex-start;
 }
-
 .main #contact button:hover {
   color: white;
 }
-
 .main #contact button {
   background-color: #1f2025;
   color: rgba(255, 255, 255, 0.719);
@@ -149,25 +104,13 @@
   width: 40%;
   cursor: pointer;
 }
-
 .main #contact form {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
 .main #contact form > * {
   width: 80%;
   margin-top: 2%;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

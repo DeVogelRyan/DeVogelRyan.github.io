@@ -48,7 +48,7 @@ body {
         width: 100%;
     }
 
-    #projects {
+    #projects, #articles {
         background-color: $dark-gray;
     }
 
@@ -94,7 +94,7 @@ body {
 
         }
 
-        #projects {
+        #projects, #articles {
             margin-top: 12%;
             padding: 2%;
             padding-top: 8%;
@@ -109,12 +109,15 @@ body {
             }
         }
 
+        #articles {
+            margin-top: 0;
+        }
 
-        #projects h2 {
+        #projects h2, #articles h2 {
             font-size: 1.3em;
         }
 
-        #projects p {
+        #projects p, #articles p {
             font-size: 1em;
         }
 
@@ -332,7 +335,7 @@ body {
 
 
 
-        #projects {
+        #projects, #articles {
 
             .project-collumn {
                 flex-direction: column;
