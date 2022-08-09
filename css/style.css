@@ -49,7 +49,7 @@
 }
 .main #projects img, .main #articles img {
   width: 100%;
-  height: 250px;
+  height: 300px;
   -o-object-fit: cover;
      object-fit: cover;
 }
