@@ -73,8 +73,10 @@ body .main #home {
   justify-content: space-between;
   padding-top: 5%;
 }
+body .main #home figure {
+  margin-top: 5%;
+}
 body .main #projects, body .main #articles {
-  margin-top: 12%;
   padding: 2%;
   padding-top: 8%;
   flex-direction: column;
