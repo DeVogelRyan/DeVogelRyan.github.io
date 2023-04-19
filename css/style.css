@@ -74,6 +74,7 @@
   font-family: Roboto;
   color: rgb(219, 214, 214);
   margin-top: 2%;
+  line-height: 1.5;
 }
 .main #projects .project-collumn article section, .main #articles .project-collumn article section {
   display: flex;
